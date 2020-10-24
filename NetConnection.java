@@ -28,7 +28,6 @@ public class NetConnection {
 		fw = new FileWriter(logFile);
 		
 		while(now.before(refDate)) {
-			System.out.println("enteed");
 			URL url = null;
 			URLConnection connection = null;
 			now = new Date();
