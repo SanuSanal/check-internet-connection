@@ -13,9 +13,7 @@ public class NetConnection {
 		Date now = new Date();
 
 		Date refDate = new Date();
-//		refDate.setHours(refDate.getHours() + 1);
-
-		refDate.setMinutes(refDate.getMinutes() + 1);
+		refDate.setHours(refDate.getHours() + 1);
 		
 		File logFile = new File("log.txt");
 		try {
